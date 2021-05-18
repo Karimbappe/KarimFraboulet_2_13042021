@@ -1,0 +1,81 @@
+/* CSS GLOBAL */
+
+html{
+    font-family: 'Raleway', sans-serif;
+}
+/*header*/
+
+.main-head{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.titre-h1{
+    font-size: 32px;
+    font-weight: bold;
+    margin-left: 8px;
+}
+
+.sous-titre{
+    font-size: 16px;
+    margin-left: 8px;
+}
+
+.main-head-logo{
+    padding: 0px 32px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.main-head-item, .main-head-button{
+    padding: 32px;
+    margin-top: 2px; 
+}
+
+.main-head-item:hover{
+    border-top: 2px solid #0065fc;
+    color:#0065FC;
+    padding: 63px;
+}
+
+.main-head-button{
+    color: #0065fc;
+}
+
+.main-head-nav{
+    display: flex;
+    list-style: none; 
+}
+/*Search box*/
+
+.container .input{
+    border: 0;
+    outline: none;
+    color: black;
+    padding: 0px 24px;
+}
+
+.search_wrap{
+    width: 500px;
+}
+
+.search_wrap .search_box{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.search_wrap .search_box .input{
+    display: flex;
+}
+
+.search-button{
+    cursor: grab;
+    background-color: #0065fc;
+    color: white;
+    font-weight: bold;
+}
