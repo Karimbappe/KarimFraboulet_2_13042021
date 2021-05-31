@@ -8,6 +8,7 @@ html {
 
 body {
     padding: 0 32px;
+    
 }
 /* header */
 
@@ -43,14 +44,38 @@ a {
     display: flex;
     list-style: none; 
 }
+
+
 /* Search box */
 
-.container 
-.input {
+::placeholder{
+    font-size: 15px;
+    font-weight: bold;
+    opacity: 69%;
+}
+
+.button-style {
+    background-color: #0065FC;
+    color: white;
+    font-weight: bold;
     border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    border-radius: 0px 15px 15px 0px;
+    cursor: pointer;
+
+}
+
+.input
+{
+    border-left: none;
+    border-right: none;
+    border: 1px solid #DEEBFF;
     outline: none;
     color: black;
-    padding: 0px 24px;
+    padding: 12px 20px 12px 12px; 
 }
 
 .search_wrap {
@@ -63,12 +88,6 @@ a {
     justify-content: flex-start;
 }
 
-.search_wrap 
-.search_box 
-.input {
-    display: flex;
-}
-
 .search-button {
     cursor: pointer;
     background-color: #0065fc;
@@ -76,23 +95,61 @@ a {
     font-weight: bold;
 }
 
+.search-logo{
+    padding: 11px;
+    border-radius: 10px 0px 0px 10px;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+}
+
 /* Filtre */
 
-.titre-h2 {
-    margin: 0 2rem 1rem 0;
-    display: flex;
-    align-items: center;
+.filters{
+  display: -webkit-box;
+  padding-top: 25px;
 }
+
+.filtre-logo{
+    border: 1px solid #DEEBFF;
+    background-color: #DEEBFF;
+    color: #0065fc ;
+    border-radius: 100%;
+    padding: 13px;
+    border-radius: 100%;
+    margin-right: 15px;
+} 
 
 .filters-button {
     display: inline;
-    align-items: center;
     border: 2px solid #d9d9d9;
-    border-radius: 2rem;
-    margin-bottom: 1rem;
+    border-radius: 30px;
     cursor: pointer;
     font-weight: bold;
     transition-duration: 0.1s;
     flex-direction: row-reverse;
-    padding: 20px;
+    padding: 11px 12px 12px 0px;
+    padding-left: 0px;
+    margin-right: 2rem;
 }
+
+.info-logo{
+    color: #0065fc;
+    padding: 11px;
+    border-radius: 100%;
+    background-color: white;
+    border: 1px solid #d9d9d9;
+    margin-right: 8px;
+}
+
+.info{
+    display: -webkit-box;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 1000px){
+
+}
+
+/* Body */
+
