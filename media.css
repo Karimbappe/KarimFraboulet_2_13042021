@@ -1,33 +1,12 @@
-@media screen and (max-width: 601px){
+@media screen and (max-width: 600px){
         .main-head{
         grid-template-columns: auto 1fr auto;
-        grid-template-areas:"logo . button" "navbar navbar navbar";
+        grid-template-areas:".main-head-item .main-head-button";
         }
-a {
-    text-decoration: none;
-    color: black;
 
-
-
-.main-head-item, 
-.main-head-button {
-    padding: 32px;
-    margin-top: 2px; 
-}
-
-.main-head-item:hover {
-    border-bottom: 5px solid #0065fc;
-    color:#0065FC;
-    padding-top: 37px;
-}
-
-.main-head-button {
-    color: #0065fc;
-}
-
-.main-head-nav {
-    display: flex;
-    list-style: none; 
-}
-
-}
+        .main-head-nav{
+            border-top: none;
+            border-bottom: 3px solid #F2F2F2;
+            width: 50%;
+        }
+    }
