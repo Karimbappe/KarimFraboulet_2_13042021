@@ -1,7 +1,7 @@
 @media screen and (max-width: 600px){
         .main-head{
         grid-template-columns: auto 1fr auto;
-        grid-template-areas:".main-head-item .main-head-button";
+        grid-template-areas:".main-head-item .main-head-button .main-head-nav";
         }
 
         .main-head-nav{
