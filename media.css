@@ -1,12 +1,99 @@
-@media screen and (max-width: 600px){
-        .main-head{
-        grid-template-columns: auto 1fr auto;
-        grid-template-areas:".main-head-item .main-head-button .main-head-nav";
-        }
+@media screen and (max-width: 601px){
 
-        .main-head-nav{
-            border-top: none;
-            border-bottom: 3px solid #F2F2F2;
-            width: 50%;
-        }
+    .input{
+        flex: 1;
     }
+
+    .main-head {
+        display: block;
+        justify-content: space-between;
+        margin-top: 25px;
+        border-bottom: 2px solid #f2f2f2;
+    }
+
+    .flex-around {
+        display:block;
+    }
+
+    .main-head-nav {
+        justify-content: space-between;
+    }
+
+    .main-head:hover {
+        border-bottom: 2px solid #0065FC;
+        border-top: 0px transparent;
+    }
+
+    .main-head-item {
+        display: flex;
+    }
+
+    .main-head-item:hover {
+        display: none;
+    }
+    
+    a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .search-box{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .cube-populaires {
+        background-color: white;
+        height: auto;
+        padding: 1% 0 1% 1%;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+
+    .cube-activites {
+        background-color: white;
+        height: auto;
+        padding: 1% 0 1% 1%;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+    
+    .main-head-item, 
+     {
+        padding: 32px;
+        margin-top: 2px; 
+        display: flex;
+    }
+    
+
+    .main-head-button2 {
+        display: flex-end;
+    }
+
+    .filters {
+        display: inline-grid;
+    }
+    
+    .main-head-button {
+        color: #0065fc;
+        display: none;
+    }
+
+    .filters-button {
+    border: 2px solid #d9d9d9;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: bold;
+    transition-duration: 0.1s;
+    margin-top: 20px;
+    padding-right: 12px;
+    padding: 0px;
+    }
+}
+
+@media screen and (max-width: 930px){
+    .filters {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
