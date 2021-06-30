@@ -1,14 +1,13 @@
-@media screen and (max-width: 601px){
+@media screen and (max-width: 480px){
 
-    .input{
-        flex: 1;
+    /* MAIN HEADER */
+    
+    h1 {
+        margin-top: 60px;
     }
 
     .main-head {
         display: block;
-        justify-content: space-between;
-        margin-top: 25px;
-        border-bottom: 2px solid #f2f2f2;
     }
 
     .flex-around {
@@ -16,69 +15,72 @@
     }
 
     .main-head-nav {
-        justify-content: space-between;
-    }
-
-    .main-head:hover {
-        border-bottom: 2px solid #0065FC;
-        border-top: 0px transparent;
-    }
-
-    .main-head-item {
-        display: flex;
+        justify-content: space-around;
+        width: 100%;
     }
 
     .main-head-item:hover {
+        border-bottom-color: #0065FC;
+        border-top: transparent;
+    }
+
+    .main-head-item {
+        border-top: none;
+        border-bottom: 3px solid #F2F2F2;
+        width: 50%;
+        flex: 1;
+    }
+
+     .main-head-button {
+        color: #0065fc;
         display: none;
     }
-    
+
     a {
         text-decoration: none;
         color: black;
     }
 
+    .main-head-button2{
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-start;
+    }
+
+    /* SEARCH BOX */
+
+    .input{
+        flex: 1;
+    }
     .search-box{
         display: flex;
         justify-content: center;
     }
-    
-    .cube-populaires {
-        background-color: white;
-        height: auto;
-        padding: 1% 0 1% 1%;
-        border-radius: 20px;
-        cursor: pointer;
-    }
 
-    .cube-activites {
-        background-color: white;
-        height: auto;
-        padding: 1% 0 1% 1%;
-        border-radius: 20px;
-        cursor: pointer;
-    }
-    
-    .main-head-item, 
-     {
-        padding: 32px;
-        margin-top: 2px; 
+    .search-container{
         display: flex;
+        width: 100%;
+    }
+
+    .button-style {
+        display: none;
+    }
+
+    .button-style2 {
+        display: block;
+    }
+
+    .button-style2:hover {
+        color: #0065fc;
+        background-color: #f2f2f2;
     }
     
-
-    .main-head-button2 {
-        display: flex-end;
-    }
+    /* FILTRE */
 
     .filters {
         display: inline-grid;
     }
     
-    .main-head-button {
-        color: #0065fc;
-        display: none;
-    }
-
     .filters-button {
     border: 2px solid #d9d9d9;
     border-radius: 30px;
@@ -86,12 +88,14 @@
     font-weight: bold;
     transition-duration: 0.1s;
     margin-top: 20px;
-    padding-right: 12px;
-    padding: 0px;
+    flex-wrap: wrap;
+    height: 52px;
+    width: auto;
     }
 }
 
-@media screen and (max-width: 930px){
+@media screen and (min-width: 425px) and (max-width: 768px){
+
     .filters {
         display: flex;
         flex-wrap: wrap;
