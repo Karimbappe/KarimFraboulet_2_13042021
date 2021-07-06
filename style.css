@@ -4,8 +4,10 @@ html {
     font-family: 'Raleway', sans-serif;
 }
 
+
 main {
     padding: 0 32px; 
+    min-height: calc(100vh - 77px - 200px);
 }
 .couleur-bleu {
     color: #0065fc;
@@ -65,7 +67,8 @@ main {
 .main-head {
     display: flex;
     justify-content: space-between;
-    margin-top: 25px;
+    margin: 20px;
+    /*margin-top: 25px;*/
 }
 
 a {
@@ -78,6 +81,10 @@ a {
 .main-head-button {
     padding: 32px;
     margin-top: 2px; 
+}
+
+.main-head-nav li:hover {
+
 }
 
 .main-head-item:hover {
@@ -98,7 +105,7 @@ a {
 .main-head-nav {
     display: flex;
     list-style: none; 
-    margin-top: 50px;
+    margin-top: 21px;
 }
 
 

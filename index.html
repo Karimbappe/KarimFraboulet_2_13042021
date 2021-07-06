@@ -24,24 +24,23 @@
 
 <body>
     <header class="main-head">
-
-    <img class="main-head-logo" src="images/logo/Reservia.svg">
-
-    <nav>
-    <div><a href="#" class="main-head-button2">S'inscrire</a></div>
-
-    <ul class="main-head-nav">
-        <li><a href="#Héberge" class="main-head-item">Hébergements</a></li>
-        <li><a href="#Active" class="main-head-item">Activités</a></li>
-        <li><a href="#" class="main-head-button">S'inscrire</a></li>
-    </ul>
-    </nav>
-
-   </header> 
+        <div class="main-head-logo">
+            <img class="main-head-logo" src="images/logo/Reservia.svg">
+            <div class="main-head-mob-sign"><a href="#" class="main-head-button2">S'inscrire</a></div>
+        </div>
+    
+        <nav>
+            <ul class="main-head-nav">
+                <li><a href="#Héberge" class="main-head-item">Hébergements</a></li>
+                <li><a href="#Active" class="main-head-item">Activités</a></li>
+                <li class="main-head-nav-signup"><a href="#" class="main-head-button">S'inscrire</a></li>
+            </ul>
+        </nav>
+    </header> 
 
    <main>
-    <div>
-        <h1>Trouver votre hébergements pour des vacances de rêve</h1>
+    <div class="intro-search-bar">
+        <h1 class="slogan">Trouver votre hébergements pour des vacances de rêve</h1>
         <p>En plein centre ville ou en pleine nature</p>
         
         <div class="search-container">
@@ -73,7 +72,7 @@
     <!--   BODY   --> 
 
     <section class="flex-around">
-        <div class="flex-column-around size-hebergement bloc-hebergement">
+        <div id="responsive-hebergement" class="flex-column-around size-hebergement bloc-hebergement">
             <h3 class="texte-gras"><a name="Héberge">Hébergements a Marseille</a></h3>
                 <div class="bloc-1 flex-between">
                     <div class="cube-hebergement flex-column-centre">
@@ -280,6 +279,7 @@
             </div>
         </div>
     </section>
+        </main>
         <footer>
             <div class="footer back-gris flex-between">
                 <div class="marge-footer1 size-bloc-footer">
@@ -300,6 +300,5 @@
                 </div>
             </div>
         </footer>
-   </main>
 </body> 
 </html>
