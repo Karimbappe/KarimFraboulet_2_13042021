@@ -4,6 +4,8 @@ https://karimbappe.github.io/KarimFraboulet_2_13042021/
 Ce projet est le tout premier de mon voyage dans le développement web et mobile.
 Reservia est un projet d'intégration de maquette pour un site de réservation d'hébergements pour des vacances. Il est développé en utilisant HTML, CSS. Il permet aux utilisateurs de trouver et réserver leur hébergement de vacances idéal en quelques clics.
 
+stack : HTML, CSS
+
 Fonctionnalités
 
 - Affichage des hébergements disponibles avec des photos, des détails et des avis
